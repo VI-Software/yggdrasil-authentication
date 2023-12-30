@@ -1,5 +1,5 @@
 {
-  "name": "yggdrasil-server",
+  "name": "vis-authserver",
   "version": "0.1.0",
   "description": "Custom auth server for VI Software",
   "main": "index.js",
