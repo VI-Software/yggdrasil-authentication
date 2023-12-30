@@ -1,0 +1,25 @@
+{
+  "name": "yggdrasil-server",
+  "version": "0.1.0",
+  "description": "Custom auth server for VI Software",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "help": "node db-tool.js help",
+    "add-account": "node db-tool.js add-account",
+    "add-profile": "node db-tool.js add-profile",
+    "update-password": "node db-tool.js update-password",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VI Software",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "bcrypt": "^5.1.0",
+    "better-sqlite3": "^8.0.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "randomstring": "^1.2.3",
+    "uuid": "^9.0.0"
+  }
+}

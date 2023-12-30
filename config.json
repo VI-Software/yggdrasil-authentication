@@ -1,0 +1,27 @@
+{
+  "bcrypt": {
+    "saltRounds": 16
+  },
+  "database": {
+    "location": "yggdrasil.db",
+    "overrides": {
+      "skins": {},
+      "capes": {}
+    }
+  },
+  "server": {
+    "port": 8081,
+    "externalUrl": "http://localhost:8081",
+    "name": "Cool Yggdrasil Server",
+    "message": "Powered by yggdrasil-server"
+  },
+  "passthrough": {
+    "enabled": true,
+    "servers": {
+      "auth": "https://authserver.mojang.com",
+      "account": "https://api.mojang.com",
+      "session": "https://sessionserver.mojang.com",
+      "services": "https://api.minecraftservices.com"
+    }
+  }
+}
