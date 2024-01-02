@@ -1,10 +1,7 @@
-# IDE files
-.vscode/
-nbproject/private/
-
-# npm
-node_modules/
-
-# User content
-yggdrasil.db
-textures/
+*.db
+/.direnv
+/.envrc
+/config.toml
+/drasl
+/node_modules
+/public/bundle.js

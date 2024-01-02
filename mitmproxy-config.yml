@@ -1,5 +1,0 @@
-map_remote:
-  - "|https://authserver.mojang.com/|http://localhost:8081/auth/"
-  - "|https://api.minecraftservices.com/|http://localhost:8081/services/"
-  - "|https://api.mojang.com/|http://localhost:8081/accounts/"
-  - "|https://sessionserver.mojang.com/|http://localhost:8081/session/"
